@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:18.2.0"],\
             ["react-icons", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.10.1"],\
+            ["tailwind-merge", "npm:1.13.2"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["vite", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.4.3"]\
@@ -1230,6 +1231,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:18.2.0"],\
             ["react-icons", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.10.1"],\
+            ["tailwind-merge", "npm:1.13.2"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["vite", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.4.3"]\
@@ -3463,6 +3465,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",\
           "packageDependencies": [\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tailwind-merge", [\
+        ["npm:1.13.2", {\
+          "packageLocation": "./.yarn/cache/tailwind-merge-npm-1.13.2-3c79926951-8f9de3bd1e.zip/node_modules/tailwind-merge/",\
+          "packageDependencies": [\
+            ["tailwind-merge", "npm:1.13.2"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -41,6 +41,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.25"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:18.2.0"],\
+            ["react-icons", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.10.1"],\
+            ["react-tooltip", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:5.18.0"],\
+            ["tailwind-merge", "npm:1.13.2"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["vite", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.4.3"]\
@@ -319,6 +322,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@eslint-js-npm-8.44.0-66b473d41b-fc53958322.zip/node_modules/@eslint/js/",\
           "packageDependencies": [\
             ["@eslint/js", "npm:8.44.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@floating-ui/core", [\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/@floating-ui-core-npm-1.3.1-d31cabf485-fe3b40fcae.zip/node_modules/@floating-ui/core/",\
+          "packageDependencies": [\
+            ["@floating-ui/core", "npm:1.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@floating-ui/dom", [\
+        ["npm:1.4.5", {\
+          "packageLocation": "./.yarn/cache/@floating-ui-dom-npm-1.4.5-2a2e293b9a-8e25c75b9f.zip/node_modules/@floating-ui/dom/",\
+          "packageDependencies": [\
+            ["@floating-ui/dom", "npm:1.4.5"],\
+            ["@floating-ui/core", "npm:1.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1228,6 +1250,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.25"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:18.2.0"],\
+            ["react-icons", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.10.1"],\
+            ["react-tooltip", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:5.18.0"],\
+            ["tailwind-merge", "npm:1.13.2"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["vite", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.4.3"]\
@@ -1295,6 +1320,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chownr-npm-2.0.0-638f1c9c61-c57cf9dd07.zip/node_modules/chownr/",\
           "packageDependencies": [\
             ["chownr", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["classnames", [\
+        ["npm:2.3.2", {\
+          "packageLocation": "./.yarn/cache/classnames-npm-2.3.2-d2fdae468d-2c62199789.zip/node_modules/classnames/",\
+          "packageDependencies": [\
+            ["classnames", "npm:2.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3106,6 +3140,56 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icons", [\
+        ["npm:4.10.1", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.10.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.10.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-532499e701/0/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:4.10.1"],\
+            ["@types/react", "npm:18.2.14"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-tooltip", [\
+        ["npm:5.18.0", {\
+          "packageLocation": "./.yarn/cache/react-tooltip-npm-5.18.0-00114686e7-3d650e729c.zip/node_modules/react-tooltip/",\
+          "packageDependencies": [\
+            ["react-tooltip", "npm:5.18.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:5.18.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-tooltip-virtual-25d2464dd6/0/cache/react-tooltip-npm-5.18.0-00114686e7-3d650e729c.zip/node_modules/react-tooltip/",\
+          "packageDependencies": [\
+            ["react-tooltip", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:5.18.0"],\
+            ["@floating-ui/dom", "npm:1.4.5"],\
+            ["@types/react", "npm:18.2.14"],\
+            ["@types/react-dom", "npm:18.2.6"],\
+            ["classnames", "npm:2.3.2"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:b6a0b76f6c54e578a176a02b79a38623598f6d531b6ccaeb4a35982aa1d18dcae599df73928b4676fb69f2966abbd1b49b676de1d715e96babc0b7ceda74d3df#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["read-cache", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/read-cache-npm-1.0.0-00fa89ed05-cffc728b9e.zip/node_modules/read-cache/",\
@@ -3439,6 +3523,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",\
           "packageDependencies": [\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tailwind-merge", [\
+        ["npm:1.13.2", {\
+          "packageLocation": "./.yarn/cache/tailwind-merge-npm-1.13.2-3c79926951-8f9de3bd1e.zip/node_modules/tailwind-merge/",\
+          "packageDependencies": [\
+            ["tailwind-merge", "npm:1.13.2"]\
           ],\
           "linkType": "HARD"\
         }]\

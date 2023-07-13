@@ -1,9 +1,9 @@
 {
-  "homepage": "https://viper132.github.io/portfolio-calculator",
+  "homepage": "https://viper132.github.io/portfolio-calculator/",
   "name": "calculator",
-  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
